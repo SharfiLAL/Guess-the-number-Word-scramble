@@ -17,7 +17,7 @@ if __name__ == '__main__':
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
 '''
 
-'''
+
 "Guess the Number"
 
 import random
@@ -39,7 +39,7 @@ while x != Guess:
  else: Guess = x
 print("Correct guess")
 #finally when the player guesses the correct number, this is printed.
-'''
+
 
 "Words scramble"
 
@@ -63,4 +63,5 @@ while Scrambled_word != Guess_the_scrambled_word:
 #I have created a loop in order for the player to guess the scrambled word
 else: Guess_the_scrambled_word = Scrambled_word
 print("Correct guess")
+
 #Finally when the guess is correct, "Correct guess" is displayed
